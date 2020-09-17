@@ -1,0 +1,251 @@
+/* font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* Farbe: #9e9e9e, #fff, #000, #333, #666 */
+html{
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-left: 0;
+}
+body{
+    margin: 0;
+}
+ em{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+section div{
+    background: url(../img/portfolio1.jpeg) center no-repeat;
+    height: 100vh;
+    
+}
+article   {
+    background: url(../img/portfolio2.jpg) center / cover no-repeat;
+   
+    height: 100vh;
+    opacity: 0.4;
+
+}
+div{
+    padding-top: 15vh;
+    padding-left: 15vh;
+    
+}
+div h2{
+    color:#fff;
+    font-size: 5em;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 0;
+}
+article div:nth-of-type(odd){
+    color: rgb(39, 37, 37);
+}
+article  p a{
+    color: #fff;
+    border: 0.1vh solid #fff;
+    padding: 2vh;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+article p:nth-child(3){
+    margin-bottom: 13vh;
+}
+article  h2 a{
+    color: rgba(0, 0 , 0 , 0.5);
+    font-size: 25vh;
+
+    font-family: 'Fjalla One', sans-serif;    margin-left: 120vh;
+    text-decoration: none;
+}
+article a:hover  { background:#fff; color: #666; } 
+   article :hover ~ h2 a { color: #fff; }
+    
+ 
+ footer{
+     background: url(../img/portfolio3.png) center / cover no-repeat;
+   
+     height: 100vh;
+     margin-top: 20vh;
+ }
+ div{
+    padding-top: 15vh;
+    padding-left: 15vh;
+    
+}
+footer div h2{
+    color:#000;
+    font-size: 5em;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 0;
+}
+footer div:nth-of-type(odd){
+    color: #666;
+}
+footer  p a{
+    color: #000;
+    border: 0.1vh solid #000;
+    padding: 2vh;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+footer p:nth-child(3){
+    margin-bottom: 13vh;
+}
+footer  h2 a{
+    color: rgba(0, 0 , 0 , 0.5);
+    font-size: 25vh;
+
+    font-family: 'Fjalla One', sans-serif;    margin-left: 120vh;
+    text-decoration: none;
+}
+ footer a:hover  { background:#000; color: #fff; } 
+    footer :hover ~ h2 a { color: #000; }
+   
+    nav{
+        background: url(../img/portfolio4.jpg) center / cover no-repeat;
+      
+        height: 100vh;   
+        margin-top: 20vh;
+        opacity: 0.4;
+    } 
+        
+        div{
+            padding-top: 15vh;
+            padding-left: 15vh;
+            
+        }
+        nav div h2{
+            color:#fff;
+            font-size: 5em;
+            font-family: 'Didact Gothic', sans-serif;
+            margin-top: 0;
+        }
+       nav div:nth-of-type(odd){
+            color: #666;
+        }
+        nav p a{
+            color: #fff;
+            border: 0.1vh solid #fff;
+            padding: 2vh;
+            font-style: normal;
+            text-decoration: none;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        nav p:nth-child(3){
+            margin-bottom: 13vh;
+        }
+        nav  h2 a{
+            color: rgba(0, 0 , 0 , 0.5);
+            font-size: 25vh;
+        
+            font-family: 'Fjalla One', sans-serif;    margin-left: 120vh;
+            text-decoration: none;
+        }
+         nav a:hover  { background:#fff; color: #666; } 
+           nav :hover ~ h2 a { color: #fff; }
+           
+           header{
+            background: url(../img/portfolio5.png) center / cover no-repeat;
+          
+            height: 100vh;
+            margin-top: 20vh;
+        }
+        header div{
+           padding-top: 15vh;
+           padding-left: 15vh;
+           
+       }
+       header div h2{
+           color:#000;
+           font-size: 5em;
+           font-family: 'Didact Gothic', sans-serif;
+           margin-top: 0;
+       }
+       header div:nth-of-type(odd){
+           color: #666;
+       }
+       header  p a{
+           color: #000;
+           border: 0.1vh solid #000;
+           padding: 2vh;
+           font-style: normal;
+           text-decoration: none;
+           font-family: 'Fjalla One', sans-serif;
+       }
+       header p:nth-child(3){
+           margin-bottom: 13vh;
+       }
+       header  h2 a{
+           color: rgba(0, 0 , 0 , 0.5);
+           font-size: 25vh;
+       
+           font-family: 'Fjalla One', sans-serif;    margin-left: 120vh;
+           text-decoration: none;
+       }
+       header a:hover  { background:#000; color: #fff; } 
+           header :hover ~ h2 a { color: #000; }
+           button{
+               background: #000  ;
+               height: 100vh;
+               color: #fff;
+               margin-top: 20vh;
+               
+           }
+           button h1{
+               font-size: 20vh;
+               text-transform: none;
+               padding-top: 0;
+               margin-top: 0;
+               
+           }
+           button div{
+               font-size: 3vh;
+               margin-left: 60vh;
+               padding-top: 0;
+               margin-top: 0;
+               padding-left: 20vh;
+               font-family: 'Didact Gothic', sans-serif;
+               text-align: left;
+               padding-right: 5vh;
+               color: #666;
+               margin-bottom: 20vh;
+               
+               
+           }
+           h3{
+               padding-top: 10vh;
+               font-size: 8vh;
+               
+           }
+           h3 a{
+               color: #666;
+               text-decoration: none;
+           }
+           button h3 a:hover{
+               text-decoration: underline;
+           }
+           button h1 a{
+               color: #000;
+               text-decoration: none;
+
+           }
+           button h1 a:hover{
+            text-decoration: underline;
+           }
+ 
+    
+
+
+        
+               
+          
